@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addClassWidget</class>
+ <widget class="QFrame" name="addClassWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>582</width>
+    <height>81</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>1</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>561</width>
+    <height>81</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <property name="frameShape">
+   <enum>QFrame::StyledPanel</enum>
+  </property>
+  <property name="frameShadow">
+   <enum>QFrame::Raised</enum>
+  </property>
+  <widget class="QWidget" name="classSelectionWidget" native="true">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>581</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>561</width>
+     <height>81</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>65600</width>
+     <height>8100</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <stylestrategy>PreferDefault</stylestrategy>
+     <kerning>true</kerning>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(221, 221, 221)</string>
+   </property>
+   <widget class="QComboBox" name="classNameComboBox">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>30</y>
+      <width>301</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="subjLabel">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>10</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Subject&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="deleteClassButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>21</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Delete Class&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;X&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(255, 0, 0)</string>
+    </property>
+    <property name="text">
+     <string>X</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="subjectComboBox">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>30</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::ClickFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox::hover:disabled{
+
+}</string>
+    </property>
+    <property name="currentText">
+     <string>Select</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>Select</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="classAndNumLabel">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>10</y>
+      <width>251</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Course Number - Class Name (Number of Sections)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="checkCourseButton">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>30</y>
+      <width>71</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+    <property name="text">
+     <string>Add Course</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="numField">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 127);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
