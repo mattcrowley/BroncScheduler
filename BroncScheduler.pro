@@ -33,7 +33,39 @@ SOURCES += main.cpp\
     viewcrndialog.cpp \
     displaydetailedclassinfo.cpp \
     showcurrentrestrictionsdialog.cpp \
-    helpmessagedialog.cpp
+    helpmessagedialog.cpp \
+    Sources/addclasswidget.cpp \
+    Sources/buildscheduleslist.cpp \
+    Sources/classrestrictionsmainmenu.cpp \
+    Sources/courseinfo.cpp \
+    Sources/coursesofferedlist.cpp \
+    Sources/displaydetailedclassinfo.cpp \
+    Sources/eliminaterestrictions.cpp \
+    Sources/exportoptions.cpp \
+    Sources/handleallclassesparsing.cpp \
+    Sources/helpmessagedialog.cpp \
+    Sources/main.cpp \
+    Sources/mainwindow.cpp \
+    Sources/selectsemester.cpp \
+    Sources/showcurrentrestrictionsdialog.cpp \
+    Sources/timerestrictionsdialog.cpp \
+    Sources/viewcrndialog.cpp \
+    Sources/addclasswidget.cpp \
+    Sources/buildscheduleslist.cpp \
+    Sources/classrestrictionsmainmenu.cpp \
+    Sources/courseinfo.cpp \
+    Sources/coursesofferedlist.cpp \
+    Sources/displaydetailedclassinfo.cpp \
+    Sources/eliminaterestrictions.cpp \
+    Sources/exportoptions.cpp \
+    Sources/handleallclassesparsing.cpp \
+    Sources/helpmessagedialog.cpp \
+    Sources/main.cpp \
+    Sources/mainwindow.cpp \
+    Sources/selectsemester.cpp \
+    Sources/showcurrentrestrictionsdialog.cpp \
+    Sources/timerestrictionsdialog.cpp \
+    Sources/viewcrndialog.cpp
 
 HEADERS  += mainwindow.h \
     handleallclassesparsing.h \
@@ -49,7 +81,22 @@ HEADERS  += mainwindow.h \
     viewcrndialog.h \
     displaydetailedclassinfo.h \
     showcurrentrestrictionsdialog.h \
-    helpmessagedialog.h
+    helpmessagedialog.h \
+    Headers/addclasswidget.h \
+    Headers/buildscheduleslist.h \
+    Headers/classrestrictionsmainmenu.h \
+    Headers/courseinfo.h \
+    Headers/coursesofferedlist.h \
+    Headers/displaydetailedclassinfo.h \
+    Headers/eliminaterestrictions.h \
+    Headers/exportoptions.h \
+    Headers/handleallclassesparsing.h \
+    Headers/helpmessagedialog.h \
+    Headers/mainwindow.h \
+    Headers/selectsemester.h \
+    Headers/showcurrentrestrictionsdialog.h \
+    Headers/timerestrictionsdialog.h \
+    Headers/viewcrndialog.h
 
 FORMS    += mainwindow.ui \
     addclasswidget.ui \
@@ -60,4 +107,15 @@ FORMS    += mainwindow.ui \
     selectsemester.ui \
     displaydetailedclassinfo.ui \
     showcurrentrestrictionsdialog.ui \
-    helpmessagedialog.ui
+    helpmessagedialog.ui \
+    Forms/addclasswidget.ui \
+    Forms/classrestrictionsmainmenu.ui \
+    Forms/creatingClassListDialog.ui \
+    Forms/displaydetailedclassinfo.ui \
+    Forms/exportoptions.ui \
+    Forms/helpmessagedialog.ui \
+    Forms/mainwindow.ui \
+    Forms/selectsemester.ui \
+    Forms/showcurrentrestrictionsdialog.ui \
+    Forms/timerestrictionsdialog.ui \
+    Forms/viewcrndialog.ui
