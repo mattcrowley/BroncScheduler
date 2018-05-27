@@ -4,7 +4,7 @@
  * Description: This class shows a window containing all of your chosen restrictions.
  */
 
-#include "showcurrentrestrictionsdialog.h"
+#include "Headers/showcurrentrestrictionsdialog.h"
 #include "ui_showcurrentrestrictionsdialog.h"
 
 ShowCurrentRestrictionsDialog::ShowCurrentRestrictionsDialog(QList<QString> res, QWidget *parent) :

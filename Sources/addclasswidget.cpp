@@ -6,7 +6,7 @@
  *              and ensuring the course being added to the list has a course title and number that is valid.
  */
 
-#include "addclasswidget.h"
+#include "Headers/addclasswidget.h"
 
 //takes in a copy of the parent, the subjectList, and which form number the class is
 addClassWidget::addClassWidget(HandleAllClassesParsing *newH, QList<CoursesOfferedList> subList, int numCourse, QWidget *parent) :

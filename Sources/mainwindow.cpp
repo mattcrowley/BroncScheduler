@@ -5,9 +5,9 @@
  *              you click to continue on with the program.
  */
 
-#include "mainwindow.h"
+#include "Headers/mainwindow.h"
 #include "ui_mainwindow.h"
-#include "helpmessagedialog.h"
+#include "Headers/helpmessagedialog.h"
 
 
 /* Function Name: MainWindow constructor

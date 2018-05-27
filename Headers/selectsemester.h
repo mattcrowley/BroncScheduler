@@ -23,10 +23,10 @@
 #define SELECTSEMESTER_H
 
 #include <QWidget>
-#include <QtWebKit>
-#include <QWebPage>
-#include <QWebView>
-#include <QWebFrame>
+#include <QtWebEngineWidgets/QtWebEngineWidgets>
+#include <QWebEnginePage>
+#include <QWebEngineView>
+//#include <QWebEngineFrame>
 #include <QStackedWidget>
 #include "handleallclassesparsing.h"
 #include "courseinfo.h"

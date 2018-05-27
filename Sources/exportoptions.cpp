@@ -5,9 +5,9 @@
  *              Implements the functionality for the view CRN's button, and creation of the PDF.
  */
 
-#include "exportoptions.h"
+#include "Headers/exportoptions.h"
 #include "ui_exportoptions.h"
-#include "viewcrndialog.h" //to show the CRN's of the current schedule
+#include "Headers/viewcrndialog.h" //to show the CRN's of the current schedule
 #include <qprinter>
 #include <qfiledialog.h>
 

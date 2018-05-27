@@ -6,7 +6,7 @@
  *              restrictions, it DOES NOT remove any schedules that conflict.
  */
 
-#include "eliminaterestrictions.h"
+#include "Headers/eliminaterestrictions.h"
 #include "qstringlist.h"
 #include "qdebug.h"
 

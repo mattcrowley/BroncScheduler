@@ -19,18 +19,18 @@
  *              that does not necessarily describe everything. Should be called StackedWidgetLogic
  */
 
-#include "selectsemester.h"
-#include "eliminaterestrictions.h"
+#include "Headers/selectsemester.h"
+#include "Headers/eliminaterestrictions.h"
 #include <QScrollBar>
 #include <QTextEdit>
 #include <algorithm>
-#include "exportoptions.h"
+#include "Headers/exportoptions.h"
 #include <QMenu>
-#include "displaydetailedclassinfo.h"
-#include "mainwindow.h"
-#include "showcurrentrestrictionsdialog.h"
+#include "Headers/displaydetailedclassinfo.h"
+#include "Headers/mainwindow.h"
+#include "Headers/showcurrentrestrictionsdialog.h"
 #include <QToolTip>
-#include "helpmessagedialog.h"
+#include "Headers/helpmessagedialog.h"
 
 
 

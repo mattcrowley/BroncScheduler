@@ -5,7 +5,7 @@
  *              all the info for that specific section. This prints and displays all the data for the user.
  */
 
-#include "displaydetailedclassinfo.h"
+#include "Headers/displaydetailedclassinfo.h"
 #include "ui_displaydetailedclassinfo.h"
 
 DisplayDetailedClassInfo::DisplayDetailedClassInfo(QWidget *parent) :

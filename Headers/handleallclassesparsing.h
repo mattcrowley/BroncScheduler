@@ -18,7 +18,7 @@
 
 #include <QStackedWidget>
 #include "coursesofferedlist.h"
-#include <QtWebKit>
+#include <QtWebEngineWidgets/QtWebEngineWidgets>
 #include "ui_selectsemester.h"
 #include "addclasswidget.h"
 #include "algorithm"

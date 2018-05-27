@@ -5,7 +5,7 @@
  *              courses in their schedule, or open up a new window to block more specific times.
  */
 
-#include "classrestrictionsmainmenu.h"
+#include "Headers/classrestrictionsmainmenu.h"
 
 //this constructor sets up the UI, and updates already selected and saved values
 ClassRestrictionsMainMenu::ClassRestrictionsMainMenu(HandleAllClassesParsing *h, QWidget *parent) :

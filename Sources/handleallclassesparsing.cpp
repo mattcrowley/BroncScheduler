@@ -10,7 +10,7 @@
  *              UTPA's webpage, and restraints chosen.
  */
 
-#include "handleallclassesparsing.h"
+#include "Headers/handleallclassesparsing.h"
 #include <QScrollBar>
 
 

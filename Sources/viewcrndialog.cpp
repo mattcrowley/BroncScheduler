@@ -6,7 +6,7 @@
  */
 
 
-#include "viewcrndialog.h"
+#include "Headers/viewcrndialog.h"
 #include "ui_viewcrndialog.h"
 #include <qdebug.h>
 

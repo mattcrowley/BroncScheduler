@@ -6,7 +6,7 @@
  *              schedule, it stops, removes it, then starts generating a new schedule.
  */
 
-#include "buildscheduleslist.h"
+#include "Headers/buildscheduleslist.h"
 #include "qdebug.h"
 
 //constructor for creating schedule

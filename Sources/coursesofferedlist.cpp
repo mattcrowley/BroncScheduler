@@ -6,7 +6,7 @@
  *              classes. We store those classes here, but since each class has multiple sections, we need a list of them.
  */
 
-#include "coursesofferedlist.h"
+#include "Headers/coursesofferedlist.h"
 
 CoursesOfferedList::CoursesOfferedList()
 {

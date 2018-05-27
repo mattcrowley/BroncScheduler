@@ -5,7 +5,7 @@
  *              and much more. This is mainly a class to hold many different variables only.
  */
 
-#include "courseinfo.h"
+#include "Headers/courseinfo.h"
 
 //constructor
 courseInfo::courseInfo(){

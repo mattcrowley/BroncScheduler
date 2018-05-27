@@ -6,7 +6,7 @@
  *              messageboxes shown with text too long.
  */
 
-#include "helpmessagedialog.h"
+#include "Headers/helpmessagedialog.h"
 #include "ui_helpmessagedialog.h"
 
 HelpMessageDialog::HelpMessageDialog(QWidget *parent) :

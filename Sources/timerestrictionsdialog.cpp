@@ -5,7 +5,7 @@
  *              It allows functionality to click table cell sections, and change the background color.
  */
 
-#include "timerestrictionsdialog.h"
+#include "Headers/timerestrictionsdialog.h"
 
 
 TimeRestrictionsDialog::TimeRestrictionsDialog(HandleAllClassesParsing *h, QWidget *parent) :
