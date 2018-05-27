@@ -1,5 +1,5 @@
 # BroncScheduler
-- College Senior Project, a scheduling system created using Qt
+College Senior Project, a scheduling system created using Qt
 
  
 # Pre-requisites
